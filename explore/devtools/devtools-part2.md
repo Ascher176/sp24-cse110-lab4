@@ -1,0 +1,2 @@
+1. The input is not converted into numbers so the code performs string concatenation, not addition.
+2. To fix it we need to add conversion from string to a number. We could also check if the input represents a valid number.

@@ -38,4 +38,11 @@
     F. true
 ```
 15. '==' or loose equality converts types to be the same before the comparison, this makes the comparison of different data types possible. '===' or strict equality does not perform any conversions, so if the data types of values differ it will return false. 
-17. 
+17. [ 2, 4, 6 ] will be the result. There is a function doSomething. It is passed in modifyArray function and srored in a variable called callback inside modifyArray's scope. In the loop we iterate through each number in the given array and use callback variable to call doSomething function with every number in the array saving the resulting values in our newArr. Then newArr is returned. So the result would be an array with doubled values (of the given array).
+19.
+```
+1
+4
+3
+2
+```
